@@ -1,0 +1,161 @@
+body{
+
+    margin:0px;
+}
+#main{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.top_panel{
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    top:0%;
+    background-color: rgba(130, 132, 136, 0.7);
+}
+.apple-icon{
+    position: relative;
+    left: 25px;
+    top: 5px;
+}
+.clock{
+    color: white;
+    font-size: 14px;
+    font-family: 'Arial';
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    display: inline-block;
+}
+
+#settings_window{
+    position: absolute;
+    background-color: rgb(245, 244, 243);
+    top: 15%;
+    left: 5%;
+    height: 40%;
+    width:35%;
+    min-width: 276.5px;
+    min-height: 210px;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-radius: 3%;
+}
+#top_settings_panel{
+    position: relative;
+    background-color: rgb(245, 244, 243);
+    height: 10%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+    border-bottom:solid rgb(205, 204, 203);
+    border-width: 1px;
+    padding-bottom: 1%;
+}
+.dot{
+    position: relative;
+    width: 4%;
+    max-width: 14px;
+    margin-left: 2%;
+    align-self: center;
+}
+.settings-title{
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    justify-self: center;
+    flex-grow: 2;
+}
+.input{
+    min-width: none;
+    display: inline;
+    margin-right: 3%;
+    border-radius: 5px;
+    border: solid rgb(236, 235, 234)
+    
+}
+hr{
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+
+}
+.image_background{
+    background-color: rgb(232, 232, 231);
+    padding: 0% 4% 0% 4%;
+    margin:0% 1% 0% 1%;
+    border-radius: 10px;
+    height: 85%;
+}
+#image_window{
+    height: 80%;
+    position: relative;
+    top: 50%;
+    transform:translate(0,-50%);
+    background-color:white;
+    overflow-y:scroll;
+    padding: 1% 0% 1% 1%;
+}
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-track{
+    background: #eeeded;
+}
+::-webkit-scrollbar-thumb{
+    background: #c1c1c1;
+    border-radius: 10px;
+    border: 4px solid #f1f1f1;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #b1afaf;
+}
+.wallpaper{
+    position: relative;
+    max-width: 28%;
+    vertical-align:middle;
+    border: 3px solid transparent;
+    padding: 0.5%;
+    border-radius: 5px;
+
+}
+#bottom_panel{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,0%);
+    height: 10%;
+    background-color: rgba(130, 132, 136, 0.7);
+    border-radius: 15px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.bottom-icon{
+    position: relative;
+    height: 80%;
+    transition: transform .2s;
+    margin: 0 10px 0 0;
+    align-self: center;
+}
+.bottom-icon:hover{
+    transform: scale(1.2);
+
+}
+.line{
+    height: 80%;
+    width: 0px;
+    position: relative;
+    margin-right: 10px;
+    border:solid 1px #000;
+    align-self: center; 
+}
