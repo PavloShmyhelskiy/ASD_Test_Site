@@ -77,7 +77,6 @@ body{
     flex-grow: 2;
 }
 .input{
-    min-width: none;
     display: inline;
     margin-right: 3%;
     border-radius: 5px;
