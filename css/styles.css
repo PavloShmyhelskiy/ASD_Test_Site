@@ -37,7 +37,7 @@ body{
 #settings_window{
     position: absolute;
     background-color: rgb(245, 244, 243);
-    top: 15%;
+    top: max(15%,50px);
     left: 5%;
     height: 40%;
     width:35%;
@@ -137,7 +137,7 @@ hr{
     transform: translate(-50%,0%);
     height: max(10%,35px);
     background-color: rgba(130, 132, 136, 0.7);
-    border-radius: 15px;
+    border-radius: min(15px,30%);
     padding-left: 10px;
     display: flex;
 }
